@@ -11,14 +11,34 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var httpServer: HTTPServer?
+    var bgTask: UIBackgroundTaskIdentifier?
+    
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.startServer()
         return true
     }
 
+    func startServer() {
+        self.httpServer = HTTPServer()
+        self.httpServer?.setPort(35731)
+        self.httpServer?.setType("_http._tcp.")
+        let rootPath = Bundle.main.path(forResource: "web", ofType: nil)
+        self.httpServer?.setDocumentRoot(rootPath)
+        self.httpServer?.setConnectionClass(MyHTTPConnection.self)
+        do{
+            try  self.httpServer?.start()
+            print( "请打开以下网址: http://\(HTTPHelper.ipAddress() ?? ""):\(self.httpServer?.listeningPort())/people")
+        }catch{
+            print("启动失败")
+        }
+        
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

@@ -14,6 +14,39 @@
 		2B94FC64205144A8000990D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B94FC62205144A8000990D8 /* LaunchScreen.storyboard */; };
 		2B94FC6F205144A8000990D8 /* SwiftLocalServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC6E205144A8000990D8 /* SwiftLocalServerTests.swift */; };
 		2B94FC7A205144A8000990D8 /* SwiftLocalServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC79205144A8000990D8 /* SwiftLocalServerUITests.swift */; };
+		2B94FCD120514999000990D8 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B94FC9420514998000990D8 /* About.txt */; };
+		2B94FCD220514999000990D8 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC9620514998000990D8 /* DDAbstractDatabaseLogger.m */; };
+		2B94FCD320514999000990D8 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC9820514998000990D8 /* DDASLLogger.m */; };
+		2B94FCD420514999000990D8 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC9A20514998000990D8 /* DDFileLogger.m */; };
+		2B94FCD520514999000990D8 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC9C20514998000990D8 /* DDLog.m */; };
+		2B94FCD620514999000990D8 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC9E20514998000990D8 /* DDTTYLogger.m */; };
+		2B94FCD720514999000990D8 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCA120514998000990D8 /* ContextFilterLogFormatter.m */; };
+		2B94FCD820514999000990D8 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCA320514998000990D8 /* DispatchQueueLogFormatter.m */; };
+		2B94FCD920514999000990D8 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B94FCA420514998000990D8 /* README.txt */; };
+		2B94FCDA20514999000990D8 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCA820514998000990D8 /* DDData.m */; };
+		2B94FCDB20514999000990D8 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCAA20514998000990D8 /* DDNumber.m */; };
+		2B94FCDC20514999000990D8 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCAC20514998000990D8 /* DDRange.m */; };
+		2B94FCDD20514999000990D8 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCAE20514998000990D8 /* HTTPAuthenticationRequest.m */; };
+		2B94FCDE20514999000990D8 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCB020514998000990D8 /* HTTPConnection.m */; };
+		2B94FCDF20514999000990D8 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCB320514999000990D8 /* HTTPMessage.m */; };
+		2B94FCE020514999000990D8 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCB620514999000990D8 /* HTTPServer.m */; };
+		2B94FCE120514999000990D8 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCB920514999000990D8 /* MultipartFormDataParser.m */; };
+		2B94FCE220514999000990D8 /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCBB20514999000990D8 /* MultipartMessageHeader.m */; };
+		2B94FCE320514999000990D8 /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCBD20514999000990D8 /* MultipartMessageHeaderField.m */; };
+		2B94FCE420514999000990D8 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCC020514999000990D8 /* HTTPAsyncFileResponse.m */; };
+		2B94FCE520514999000990D8 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCC220514999000990D8 /* HTTPDataResponse.m */; };
+		2B94FCE620514999000990D8 /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCC420514999000990D8 /* HTTPDynamicFileResponse.m */; };
+		2B94FCE720514999000990D8 /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCC620514999000990D8 /* HTTPErrorResponse.m */; };
+		2B94FCE820514999000990D8 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCC820514999000990D8 /* HTTPFileResponse.m */; };
+		2B94FCE920514999000990D8 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCCA20514999000990D8 /* HTTPRedirectResponse.m */; };
+		2B94FCEA20514999000990D8 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCCC20514999000990D8 /* WebSocket.m */; };
+		2B94FCEB20514999000990D8 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B94FCCE20514999000990D8 /* About.txt */; };
+		2B94FCEC20514999000990D8 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FCD020514999000990D8 /* GCDAsyncSocket.m */; };
+		2BB2B65D20562540006CD214 /* MyHTTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2B65C20562540006CD214 /* MyHTTPConnection.swift */; };
+		2BB2B65F20565B24006CD214 /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB2B65E20565B23006CD214 /* wifi.png */; };
+		373132B91D21DF9FE8CBE84B /* Pods_SwiftLocalServerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F62D7FCE88E95814C4E4D33 /* Pods_SwiftLocalServerTests.framework */; };
+		873ACD54ABCFCDA1AF2DC135 /* Pods_SwiftLocalServerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648D4A4A2109F3CD05443D52 /* Pods_SwiftLocalServerUITests.framework */; };
+		916C4D03BFD7C794068EFD3E /* Pods_SwiftLocalServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1856433868167F0A787B3FE /* Pods_SwiftLocalServer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F62D7FCE88E95814C4E4D33 /* Pods_SwiftLocalServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalServerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		102338D9D5BF0ED21622A19E /* Pods-SwiftLocalServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalServerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalServerTests/Pods-SwiftLocalServerTests.release.xcconfig"; sourceTree = "<group>"; };
 		2B94FC56205144A8000990D8 /* SwiftLocalServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocalServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B94FC59205144A8000990D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B94FC5B205144A8000990D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,71 @@
 		2B94FC75205144A8000990D8 /* SwiftLocalServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLocalServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B94FC79205144A8000990D8 /* SwiftLocalServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLocalServerUITests.swift; sourceTree = "<group>"; };
 		2B94FC7B205144A8000990D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B94FC8E20514941000990D8 /* SwiftLocalServer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftLocalServer-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B94FC9420514998000990D8 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		2B94FC9520514998000990D8 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		2B94FC9620514998000990D8 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		2B94FC9720514998000990D8 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		2B94FC9820514998000990D8 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		2B94FC9920514998000990D8 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		2B94FC9A20514998000990D8 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		2B94FC9B20514998000990D8 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		2B94FC9C20514998000990D8 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		2B94FC9D20514998000990D8 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		2B94FC9E20514998000990D8 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		2B94FCA020514998000990D8 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		2B94FCA120514998000990D8 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		2B94FCA220514998000990D8 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		2B94FCA320514998000990D8 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		2B94FCA420514998000990D8 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2B94FCA720514998000990D8 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		2B94FCA820514998000990D8 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		2B94FCA920514998000990D8 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		2B94FCAA20514998000990D8 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		2B94FCAB20514998000990D8 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		2B94FCAC20514998000990D8 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		2B94FCAD20514998000990D8 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		2B94FCAE20514998000990D8 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		2B94FCAF20514998000990D8 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		2B94FCB020514998000990D8 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		2B94FCB120514998000990D8 /* HTTPLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPLogging.h; sourceTree = "<group>"; };
+		2B94FCB220514999000990D8 /* HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
+		2B94FCB320514999000990D8 /* HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
+		2B94FCB420514999000990D8 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		2B94FCB520514999000990D8 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		2B94FCB620514999000990D8 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		2B94FCB820514999000990D8 /* MultipartFormDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartFormDataParser.h; sourceTree = "<group>"; };
+		2B94FCB920514999000990D8 /* MultipartFormDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataParser.m; sourceTree = "<group>"; };
+		2B94FCBA20514999000990D8 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeader.h; sourceTree = "<group>"; };
+		2B94FCBB20514999000990D8 /* MultipartMessageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeader.m; sourceTree = "<group>"; };
+		2B94FCBC20514999000990D8 /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeaderField.h; sourceTree = "<group>"; };
+		2B94FCBD20514999000990D8 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeaderField.m; sourceTree = "<group>"; };
+		2B94FCBF20514999000990D8 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		2B94FCC020514999000990D8 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		2B94FCC120514999000990D8 /* HTTPDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDataResponse.h; sourceTree = "<group>"; };
+		2B94FCC220514999000990D8 /* HTTPDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDataResponse.m; sourceTree = "<group>"; };
+		2B94FCC320514999000990D8 /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		2B94FCC420514999000990D8 /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
+		2B94FCC520514999000990D8 /* HTTPErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPErrorResponse.h; sourceTree = "<group>"; };
+		2B94FCC620514999000990D8 /* HTTPErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPErrorResponse.m; sourceTree = "<group>"; };
+		2B94FCC720514999000990D8 /* HTTPFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPFileResponse.h; sourceTree = "<group>"; };
+		2B94FCC820514999000990D8 /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
+		2B94FCC920514999000990D8 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
+		2B94FCCA20514999000990D8 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
+		2B94FCCB20514999000990D8 /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
+		2B94FCCC20514999000990D8 /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
+		2B94FCCE20514999000990D8 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		2B94FCCF20514999000990D8 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		2B94FCD020514999000990D8 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		2BB2B65C20562540006CD214 /* MyHTTPConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHTTPConnection.swift; sourceTree = "<group>"; };
+		2BB2B65E20565B23006CD214 /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
+		648D4A4A2109F3CD05443D52 /* Pods_SwiftLocalServerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalServerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6952421E6F2E05B6595EBDA8 /* Pods-SwiftLocalServerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalServerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalServerUITests/Pods-SwiftLocalServerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7ACB754549B58DEADBAE4AA4 /* Pods-SwiftLocalServerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalServerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalServerUITests/Pods-SwiftLocalServerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B7E3415E770E1A7A77B0386 /* Pods-SwiftLocalServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalServer/Pods-SwiftLocalServer.debug.xcconfig"; sourceTree = "<group>"; };
+		97B3338D48B46C1EADAC2801 /* Pods-SwiftLocalServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalServer/Pods-SwiftLocalServer.release.xcconfig"; sourceTree = "<group>"; };
+		C1856433868167F0A787B3FE /* Pods_SwiftLocalServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D9EBEF4178F2759F74A1B5 /* Pods-SwiftLocalServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalServerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalServerTests/Pods-SwiftLocalServerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				916C4D03BFD7C794068EFD3E /* Pods_SwiftLocalServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373132B91D21DF9FE8CBE84B /* Pods_SwiftLocalServerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873ACD54ABCFCDA1AF2DC135 /* Pods_SwiftLocalServerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +184,8 @@
 				2B94FC6D205144A8000990D8 /* SwiftLocalServerTests */,
 				2B94FC78205144A8000990D8 /* SwiftLocalServerUITests */,
 				2B94FC57205144A8000990D8 /* Products */,
+				B794FB4F661EE94810DC361D /* Pods */,
+				8215F65A94E1574D33369F3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +202,8 @@
 		2B94FC58205144A8000990D8 /* SwiftLocalServer */ = {
 			isa = PBXGroup;
 			children = (
+				2B94FC9220514961000990D8 /* HTTPServer */,
+				2B94FC8D2051492B000990D8 /* Lib */,
 				2B94FC59205144A8000990D8 /* AppDelegate.swift */,
 				2B94FC5B205144A8000990D8 /* ViewController.swift */,
 				2B94FC5D205144A8000990D8 /* Main.storyboard */,
@@ -125,6 +232,165 @@
 			path = SwiftLocalServerUITests;
 			sourceTree = "<group>";
 		};
+		2B94FC8D2051492B000990D8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2B94FC8E20514941000990D8 /* SwiftLocalServer-Bridging-Header.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2B94FC9220514961000990D8 /* HTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				2BB2B65B2056238C006CD214 /* MyConnection */,
+				2B94FCCD20514999000990D8 /* CocoaAsyncSocket */,
+				2B94FC9320514998000990D8 /* CocoaLumberjack */,
+				2B94FCA520514998000990D8 /* Core */,
+			);
+			path = HTTPServer;
+			sourceTree = "<group>";
+		};
+		2B94FC9320514998000990D8 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				2B94FC9420514998000990D8 /* About.txt */,
+				2B94FC9520514998000990D8 /* DDAbstractDatabaseLogger.h */,
+				2B94FC9620514998000990D8 /* DDAbstractDatabaseLogger.m */,
+				2B94FC9720514998000990D8 /* DDASLLogger.h */,
+				2B94FC9820514998000990D8 /* DDASLLogger.m */,
+				2B94FC9920514998000990D8 /* DDFileLogger.h */,
+				2B94FC9A20514998000990D8 /* DDFileLogger.m */,
+				2B94FC9B20514998000990D8 /* DDLog.h */,
+				2B94FC9C20514998000990D8 /* DDLog.m */,
+				2B94FC9D20514998000990D8 /* DDTTYLogger.h */,
+				2B94FC9E20514998000990D8 /* DDTTYLogger.m */,
+				2B94FC9F20514998000990D8 /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		2B94FC9F20514998000990D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B94FCA020514998000990D8 /* ContextFilterLogFormatter.h */,
+				2B94FCA120514998000990D8 /* ContextFilterLogFormatter.m */,
+				2B94FCA220514998000990D8 /* DispatchQueueLogFormatter.h */,
+				2B94FCA320514998000990D8 /* DispatchQueueLogFormatter.m */,
+				2B94FCA420514998000990D8 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2B94FCA520514998000990D8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2B94FCA620514998000990D8 /* Categories */,
+				2B94FCAD20514998000990D8 /* HTTPAuthenticationRequest.h */,
+				2B94FCAE20514998000990D8 /* HTTPAuthenticationRequest.m */,
+				2B94FCAF20514998000990D8 /* HTTPConnection.h */,
+				2B94FCB020514998000990D8 /* HTTPConnection.m */,
+				2B94FCB120514998000990D8 /* HTTPLogging.h */,
+				2B94FCB220514999000990D8 /* HTTPMessage.h */,
+				2B94FCB320514999000990D8 /* HTTPMessage.m */,
+				2B94FCB420514999000990D8 /* HTTPResponse.h */,
+				2B94FCB520514999000990D8 /* HTTPServer.h */,
+				2B94FCB620514999000990D8 /* HTTPServer.m */,
+				2B94FCB720514999000990D8 /* Mime */,
+				2B94FCBE20514999000990D8 /* Responses */,
+				2B94FCCB20514999000990D8 /* WebSocket.h */,
+				2B94FCCC20514999000990D8 /* WebSocket.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2B94FCA620514998000990D8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2B94FCA720514998000990D8 /* DDData.h */,
+				2B94FCA820514998000990D8 /* DDData.m */,
+				2B94FCA920514998000990D8 /* DDNumber.h */,
+				2B94FCAA20514998000990D8 /* DDNumber.m */,
+				2B94FCAB20514998000990D8 /* DDRange.h */,
+				2B94FCAC20514998000990D8 /* DDRange.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2B94FCB720514999000990D8 /* Mime */ = {
+			isa = PBXGroup;
+			children = (
+				2B94FCB820514999000990D8 /* MultipartFormDataParser.h */,
+				2B94FCB920514999000990D8 /* MultipartFormDataParser.m */,
+				2B94FCBA20514999000990D8 /* MultipartMessageHeader.h */,
+				2B94FCBB20514999000990D8 /* MultipartMessageHeader.m */,
+				2B94FCBC20514999000990D8 /* MultipartMessageHeaderField.h */,
+				2B94FCBD20514999000990D8 /* MultipartMessageHeaderField.m */,
+			);
+			path = Mime;
+			sourceTree = "<group>";
+		};
+		2B94FCBE20514999000990D8 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2B94FCBF20514999000990D8 /* HTTPAsyncFileResponse.h */,
+				2B94FCC020514999000990D8 /* HTTPAsyncFileResponse.m */,
+				2B94FCC120514999000990D8 /* HTTPDataResponse.h */,
+				2B94FCC220514999000990D8 /* HTTPDataResponse.m */,
+				2B94FCC320514999000990D8 /* HTTPDynamicFileResponse.h */,
+				2B94FCC420514999000990D8 /* HTTPDynamicFileResponse.m */,
+				2B94FCC520514999000990D8 /* HTTPErrorResponse.h */,
+				2B94FCC620514999000990D8 /* HTTPErrorResponse.m */,
+				2B94FCC720514999000990D8 /* HTTPFileResponse.h */,
+				2B94FCC820514999000990D8 /* HTTPFileResponse.m */,
+				2B94FCC920514999000990D8 /* HTTPRedirectResponse.h */,
+				2B94FCCA20514999000990D8 /* HTTPRedirectResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		2B94FCCD20514999000990D8 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				2B94FCCE20514999000990D8 /* About.txt */,
+				2B94FCCF20514999000990D8 /* GCDAsyncSocket.h */,
+				2B94FCD020514999000990D8 /* GCDAsyncSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		2BB2B65B2056238C006CD214 /* MyConnection */ = {
+			isa = PBXGroup;
+			children = (
+				2BB2B65E20565B23006CD214 /* wifi.png */,
+				2BB2B65C20562540006CD214 /* MyHTTPConnection.swift */,
+			);
+			path = MyConnection;
+			sourceTree = "<group>";
+		};
+		8215F65A94E1574D33369F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1856433868167F0A787B3FE /* Pods_SwiftLocalServer.framework */,
+				0F62D7FCE88E95814C4E4D33 /* Pods_SwiftLocalServerTests.framework */,
+				648D4A4A2109F3CD05443D52 /* Pods_SwiftLocalServerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B794FB4F661EE94810DC361D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B7E3415E770E1A7A77B0386 /* Pods-SwiftLocalServer.debug.xcconfig */,
+				97B3338D48B46C1EADAC2801 /* Pods-SwiftLocalServer.release.xcconfig */,
+				C3D9EBEF4178F2759F74A1B5 /* Pods-SwiftLocalServerTests.debug.xcconfig */,
+				102338D9D5BF0ED21622A19E /* Pods-SwiftLocalServerTests.release.xcconfig */,
+				7ACB754549B58DEADBAE4AA4 /* Pods-SwiftLocalServerUITests.debug.xcconfig */,
+				6952421E6F2E05B6595EBDA8 /* Pods-SwiftLocalServerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +398,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B94FC7E205144A8000990D8 /* Build configuration list for PBXNativeTarget "SwiftLocalServer" */;
 			buildPhases = (
+				3F0AF0780D3C2096EAC671FF /* [CP] Check Pods Manifest.lock */,
 				2B94FC52205144A8000990D8 /* Sources */,
 				2B94FC53205144A8000990D8 /* Frameworks */,
 				2B94FC54205144A8000990D8 /* Resources */,
+				D3499F49ACA944F910C2D195 /* [CP] Embed Pods Frameworks */,
+				8B0BB1B57744F13A3E2B6286 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +418,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B94FC81205144A8000990D8 /* Build configuration list for PBXNativeTarget "SwiftLocalServerTests" */;
 			buildPhases = (
+				A6CD34CB3B9B94B3E8D642B7 /* [CP] Check Pods Manifest.lock */,
 				2B94FC66205144A8000990D8 /* Sources */,
 				2B94FC67205144A8000990D8 /* Frameworks */,
 				2B94FC68205144A8000990D8 /* Resources */,
+				30E7969FBF7716A8C0CB2EA1 /* [CP] Embed Pods Frameworks */,
+				22298FCA56F897AC9665192E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +439,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B94FC84205144A8000990D8 /* Build configuration list for PBXNativeTarget "SwiftLocalServerUITests" */;
 			buildPhases = (
+				70F8A2BE6D9EF0870B59AC24 /* [CP] Check Pods Manifest.lock */,
 				2B94FC71205144A8000990D8 /* Sources */,
 				2B94FC72205144A8000990D8 /* Frameworks */,
 				2B94FC73205144A8000990D8 /* Resources */,
+				2B67A63DC712C52C5E4EB8BB /* [CP] Embed Pods Frameworks */,
+				403DCCC0FEC36D6C2EF5A3A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +468,7 @@
 				TargetAttributes = {
 					2B94FC55205144A8000990D8 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					2B94FC69205144A8000990D8 = {
@@ -232,9 +508,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B94FCEB20514999000990D8 /* About.txt in Resources */,
 				2B94FC64205144A8000990D8 /* LaunchScreen.storyboard in Resources */,
+				2BB2B65F20565B24006CD214 /* wifi.png in Resources */,
 				2B94FC61205144A8000990D8 /* Assets.xcassets in Resources */,
+				2B94FCD120514999000990D8 /* About.txt in Resources */,
 				2B94FC5F205144A8000990D8 /* Main.storyboard in Resources */,
+				2B94FCD920514999000990D8 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +534,177 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22298FCA56F897AC9665192E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocalServerTests/Pods-SwiftLocalServerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B67A63DC712C52C5E4EB8BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocalServerUITests/Pods-SwiftLocalServerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30E7969FBF7716A8C0CB2EA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocalServerTests/Pods-SwiftLocalServerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0AF0780D3C2096EAC671FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		403DCCC0FEC36D6C2EF5A3A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocalServerUITests/Pods-SwiftLocalServerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F8A2BE6D9EF0870B59AC24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0BB1B57744F13A3E2B6286 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocalServer/Pods-SwiftLocalServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6CD34CB3B9B94B3E8D642B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3499F49ACA944F910C2D195 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLocalServer/Pods-SwiftLocalServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B94FC52205144A8000990D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B94FCD520514999000990D8 /* DDLog.m in Sources */,
+				2B94FCD320514999000990D8 /* DDASLLogger.m in Sources */,
+				2B94FCE720514999000990D8 /* HTTPErrorResponse.m in Sources */,
 				2B94FC5C205144A8000990D8 /* ViewController.swift in Sources */,
+				2B94FCE820514999000990D8 /* HTTPFileResponse.m in Sources */,
+				2B94FCDA20514999000990D8 /* DDData.m in Sources */,
+				2B94FCEC20514999000990D8 /* GCDAsyncSocket.m in Sources */,
+				2BB2B65D20562540006CD214 /* MyHTTPConnection.swift in Sources */,
 				2B94FC5A205144A8000990D8 /* AppDelegate.swift in Sources */,
+				2B94FCE520514999000990D8 /* HTTPDataResponse.m in Sources */,
+				2B94FCD820514999000990D8 /* DispatchQueueLogFormatter.m in Sources */,
+				2B94FCD220514999000990D8 /* DDAbstractDatabaseLogger.m in Sources */,
+				2B94FCDF20514999000990D8 /* HTTPMessage.m in Sources */,
+				2B94FCDE20514999000990D8 /* HTTPConnection.m in Sources */,
+				2B94FCD620514999000990D8 /* DDTTYLogger.m in Sources */,
+				2B94FCEA20514999000990D8 /* WebSocket.m in Sources */,
+				2B94FCE920514999000990D8 /* HTTPRedirectResponse.m in Sources */,
+				2B94FCD420514999000990D8 /* DDFileLogger.m in Sources */,
+				2B94FCDD20514999000990D8 /* HTTPAuthenticationRequest.m in Sources */,
+				2B94FCDC20514999000990D8 /* DDRange.m in Sources */,
+				2B94FCE620514999000990D8 /* HTTPDynamicFileResponse.m in Sources */,
+				2B94FCE120514999000990D8 /* MultipartFormDataParser.m in Sources */,
+				2B94FCE320514999000990D8 /* MultipartMessageHeaderField.m in Sources */,
+				2B94FCE420514999000990D8 /* HTTPAsyncFileResponse.m in Sources */,
+				2B94FCD720514999000990D8 /* ContextFilterLogFormatter.m in Sources */,
+				2B94FCE220514999000990D8 /* MultipartMessageHeader.m in Sources */,
+				2B94FCE020514999000990D8 /* HTTPServer.m in Sources */,
+				2B94FCDB20514999000990D8 /* DDNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +868,19 @@
 		};
 		2B94FC7F205144A8000990D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7E3415E770E1A7A77B0386 /* Pods-SwiftLocalServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AKB523DZ4;
 				INFOPLIST_FILE = SwiftLocalServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thundersoft.SwiftLocalServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftLocalServer/Lib/SwiftLocalServer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +888,18 @@
 		};
 		2B94FC80205144A8000990D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B3338D48B46C1EADAC2801 /* Pods-SwiftLocalServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AKB523DZ4;
 				INFOPLIST_FILE = SwiftLocalServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thundersoft.SwiftLocalServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftLocalServer/Lib/SwiftLocalServer-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +907,7 @@
 		};
 		2B94FC82205144A8000990D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D9EBEF4178F2759F74A1B5 /* Pods-SwiftLocalServerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +924,7 @@
 		};
 		2B94FC83205144A8000990D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102338D9D5BF0ED21622A19E /* Pods-SwiftLocalServerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +941,7 @@
 		};
 		2B94FC85205144A8000990D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACB754549B58DEADBAE4AA4 /* Pods-SwiftLocalServerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +957,7 @@
 		};
 		2B94FC86205144A8000990D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6952421E6F2E05B6595EBDA8 /* Pods-SwiftLocalServerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

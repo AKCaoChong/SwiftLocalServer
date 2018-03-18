@@ -1,0 +1,6 @@
+framework module Pods_SwiftLocalServerUITests {
+  umbrella header "Pods-SwiftLocalServerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

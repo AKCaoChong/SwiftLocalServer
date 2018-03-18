@@ -1,0 +1,6 @@
+framework module Pods_SwiftLocalServer {
+  umbrella header "Pods-SwiftLocalServer-umbrella.h"
+
+  export *
+  module * { export * }
+}
