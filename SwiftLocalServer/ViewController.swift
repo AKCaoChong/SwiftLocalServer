@@ -13,7 +13,6 @@ class ViewController: UIViewController {
 
     var imageView = UIImageView()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let startBtn = UIButton.init(frame: CGRect.init(x: 30, y: 100, width: 100, height: 50))
@@ -27,7 +26,7 @@ class ViewController: UIViewController {
         self.view.addSubview(self.imageView)
         
     }
-
+    
     @objc func startServer() {
         Alamofire.request("http://localhost:35731/upload",method:.post,parameters: nil).response(completionHandler: { (result) in
             let str = String.init(data: result.data!, encoding: .utf8)
@@ -70,6 +69,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         
     }
+}
+
+extension ViewController: CLLocationManagerDelegate{
+    
+   
+    
+    
+    
 }
 
 

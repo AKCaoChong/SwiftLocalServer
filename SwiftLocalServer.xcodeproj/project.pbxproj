@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242CF84F209ACBE6009DE488 /* BGLogation.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CF84B209ACBE6009DE488 /* BGLogation.m */; };
+		242CF850209ACBE6009DE488 /* BGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 242CF84C209ACBE6009DE488 /* BGTask.m */; };
 		2B94FC5A205144A8000990D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC59205144A8000990D8 /* AppDelegate.swift */; };
 		2B94FC5C205144A8000990D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94FC5B205144A8000990D8 /* ViewController.swift */; };
 		2B94FC5F205144A8000990D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B94FC5D205144A8000990D8 /* Main.storyboard */; };
@@ -69,6 +71,10 @@
 /* Begin PBXFileReference section */
 		0F62D7FCE88E95814C4E4D33 /* Pods_SwiftLocalServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalServerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		102338D9D5BF0ED21622A19E /* Pods-SwiftLocalServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalServerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalServerTests/Pods-SwiftLocalServerTests.release.xcconfig"; sourceTree = "<group>"; };
+		242CF84B209ACBE6009DE488 /* BGLogation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGLogation.m; sourceTree = "<group>"; };
+		242CF84C209ACBE6009DE488 /* BGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTask.m; sourceTree = "<group>"; };
+		242CF84D209ACBE6009DE488 /* BGTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTask.h; sourceTree = "<group>"; };
+		242CF84E209ACBE6009DE488 /* BGLogation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGLogation.h; sourceTree = "<group>"; };
 		2B94FC56205144A8000990D8 /* SwiftLocalServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocalServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B94FC59205144A8000990D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B94FC5B205144A8000990D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +183,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		242CF84A209ACBE6009DE488 /* BGLogation */ = {
+			isa = PBXGroup;
+			children = (
+				242CF84E209ACBE6009DE488 /* BGLogation.h */,
+				242CF84B209ACBE6009DE488 /* BGLogation.m */,
+				242CF84C209ACBE6009DE488 /* BGTask.m */,
+				242CF84D209ACBE6009DE488 /* BGTask.h */,
+			);
+			path = BGLogation;
+			sourceTree = "<group>";
+		};
 		2B94FC4D205144A7000990D8 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +219,7 @@
 		2B94FC58205144A8000990D8 /* SwiftLocalServer */ = {
 			isa = PBXGroup;
 			children = (
+				242CF84A209ACBE6009DE488 /* BGLogation */,
 				2B94FC9220514961000990D8 /* HTTPServer */,
 				2B94FC8D2051492B000990D8 /* Lib */,
 				2B94FC59205144A8000990D8 /* AppDelegate.swift */,
@@ -470,6 +488,11 @@
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					2B94FC69205144A8000990D8 = {
 						CreatedOnToolsVersion = 9.2;
@@ -684,11 +707,13 @@
 				2B94FCE820514999000990D8 /* HTTPFileResponse.m in Sources */,
 				2B94FCDA20514999000990D8 /* DDData.m in Sources */,
 				2B94FCEC20514999000990D8 /* GCDAsyncSocket.m in Sources */,
+				242CF850209ACBE6009DE488 /* BGTask.m in Sources */,
 				2BB2B65D20562540006CD214 /* MyHTTPConnection.swift in Sources */,
 				2B94FC5A205144A8000990D8 /* AppDelegate.swift in Sources */,
 				2B94FCE520514999000990D8 /* HTTPDataResponse.m in Sources */,
 				2B94FCD820514999000990D8 /* DispatchQueueLogFormatter.m in Sources */,
 				2B94FCD220514999000990D8 /* DDAbstractDatabaseLogger.m in Sources */,
+				242CF84F209ACBE6009DE488 /* BGLogation.m in Sources */,
 				2B94FCDF20514999000990D8 /* HTTPMessage.m in Sources */,
 				2B94FCDE20514999000990D8 /* HTTPConnection.m in Sources */,
 				2B94FCD620514999000990D8 /* DDTTYLogger.m in Sources */,

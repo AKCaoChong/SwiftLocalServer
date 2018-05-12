@@ -16,3 +16,6 @@
 #import "HTTPAsyncFileResponse.h"
 #import "WebSocket.h"
 #import "HTTPLogging.h"
+#import "BGLogation.h"
+#import "BGTask.h"
+
